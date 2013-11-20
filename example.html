@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery exercise · IED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://xavij.am/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>IED</h1>
+      <div class="row demo-row">
+        <div class="col-md-12">
+          <div class="navbar navbar-inverse">
+            <div class="navbar-header">
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-collapse-01"></button>
+            </div>            
+            <div class="navbar-collapse collapse navbar-collapse-01">
+              <ul class="nav navbar-nav navbar-left">
+                <li>
+                  <a href="#fakelink">
+                    Menu Item
+                    <span class="navbar-unread">1</span>
+                  </a>
+                </li>
+                <li class="active">
+                  <a href="#fakelink">
+                    Messages
+                    <span class="navbar-unread">1</span>
+                  </a>
+                  <ul>
+                    <li><a href="#fakelink">Element One</a></li>
+                    <li>
+                      <a href="#fakelink">Sub menu</a>
+                      <ul>
+                        <li><a href="#fakelink">Element One</a></li>
+                        <li><a href="#fakelink">Element Two</a></li>
+                        <li><a href="#fakelink">Element Three</a></li>
+                      </ul> <!-- /Sub menu -->
+                    </li>
+                    <li><a href="#fakelink">Element Three</a></li>
+                  </ul> <!-- /Sub menu -->
+                </li>
+                <li>
+                  <a href="#fakelink">
+                    About Us
+                  </a>
+                </li>
+              </ul>
+            </div><!--/.nav -->
+          </div>
+        </div>
+      </div> <!-- /row -->
+
+      <div class="row demo-row demo-samples">
+        <div class="col-md-8">
+          <h3>Hello hello!</h3>
+          <p class="m15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin justo sit amet interdum rhoncus. Cras laoreet, augue at suscipit eleifend, velit elit sagittis neque, quis elementum leo dolor placerat erat. Proin lacinia pulvinar nunc, at tincidunt leo viverra sed. Suspendisse tincidunt lorem vel blandit dapibus. Cras non aliquam felis. Fusce fermentum cursus arcu a dapibus. Mauris et nisl et velit dictum dignissim. Suspendisse lectus nibh, varius quis interdum eu, bibendum non lectus. Donec quis nisi non dolor ultrices semper.</p>
+          <div class="demo-type-example">
+            <img src="images/exaple-image.jpg" alt="exaple-image" class="img-rounded img-responsive">
+            <p class="img-comment"><strong>Note:</strong> gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus felis, viverra vitae vehicula eget, sagittis ac libero. Maecenas ligula eros, auctor at porta non, pulvinar sed velit. Nulla commodo quam quis justo rhoncus fermentum. Nullam a blandit erat. Proin bibendum eros at tellus congue gravida. Fusce porttitor vel felis non molestie. Etiam vel massa non nisi mollis tincidunt nec vitae magna. Aenean porttitor eleifend dui in tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sollicitudin ipsum, vel ornare dolor. Quisque commodo elit et lacus dictum hendrerit.</p>
+          <div class="demo-video">
+            <video class="video-js" controls preload="auto" width="620" height="349" poster="images/video/poster.jpg" data-setup="{}">
+              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
+              <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 m80">
+          <h5>Subscribe</h5>
+          <p><small>Ut a dictum sem. Ut mollis odio a metus faucibus condimentum. Donec rutrum fringilla lectus ut interdum.</small></p>
+          <input type="text" value="" placeholder="Inactive" class="form-control" />
+          <a href="#fakelink" class="btn btn-block btn-lg btn-default m10">Default Button</a>
+          <p class="m20"><small>Morbi aliquet turpis eget dapibus interdum. Duis mattis bibendum urna quis vehicula.</small></p>
+          <div>
+            <h3 class="demo-panel-title">Tags</h3>
+            <input name="tagsinput" id="tagsinput" class="tagsinput" value="Clean,Fresh,Modern,Unique" />
+          </div>
+          <div class="col-md-3">
+            <h3 class="demo-panel-title">Properties</h3>
+            <label class="checkbox" for="checkbox1">
+              <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+              First
+            </label>
+            <label class="checkbox" for="checkbox2">
+              <input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked="">
+              Second
+            </label>
+            <label class="checkbox" for="checkbox3">
+              <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled="">
+              Third
+            </label>
+            <label class="checkbox" for="checkbox4">
+              <input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked="">
+              Fourth
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row demo-row">
+        <div class="col-md-8 m20">
+          <p>Ut a dictum sem. Ut mollis odio a metus faucibus condimentum. Donec rutrum fringilla lectus ut interdum. Nullam aliquam nisi auctor, hendrerit eros ac, iaculis dolor. Nam augue urna, dignissim congue ipsum sed, luctus ultrices neque. Nullam adipiscing lacus ut eros aliquet pharetra. Proin vel tellus nec est lacinia porta in in nibh. Cras quam nunc, scelerisque ornare nisl id, cursus malesuada diam. Sed vestibulum vulputate ante, quis laoreet arcu condimentum id. Fusce sagittis tincidunt enim, sed suscipit nunc placerat in. In a arcu imperdiet, pharetra sem ut, congue lectus.</p>
+
+          <div class="pagination col-md-8 m40">
+            <ul>
+              <li class="previous"><a href="#fakelink" class="fui-arrow-left"></a></li>
+              <li class="active"><a href="#fakelink">1</a></li>
+              <li><a href="#fakelink">2</a></li>
+              <li><a href="#fakelink">3</a></li>
+              <li><a href="#fakelink">4</a></li>
+              <li><a href="#fakelink">5</a></li>
+              <li><a href="#fakelink">6</a></li>
+              <li><a href="#fakelink">7</a></li>
+              <li><a href="#fakelink">8</a></li>
+              <li class="next"><a href="#fakelink" class="fui-arrow-right"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="footer-title">Footer example</h3>
+            <p>Morbi aliquet turpis eget dapibus interdum. Duis mattis bibendum urna quis vehicula. Donec dictum metus eu rhoncus fringilla. Curabitur sed enim id tortor interdum ullamcorper. Ut ornare, tortor in sagittis commodo, odio sem adipiscing neque, ut dapibus orci massa id tortor. Nunc vel velit ut tellus placerat mollis.
+            </p>
+            <div class="col-md-4 m20">
+              <a href="#fakelink" class="btn btn-block btn-lg btn-info">Info Button</a>
+            </div>
+          </div> <!-- /col-md-7 -->
+
+          <div class="col-md-4">
+            <div class="footer-banner">
+              <h3 class="footer-title">Footer title</h3>
+              <ul>
+                <li>Good luck with the exercises</li>
+                <li>If you have questions...</li>
+                <li>Don't be shy!</li>
+                <li>This is an example web</li>
+                <li>Welcome to jQuery's world</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/jquery.stacktable.js"></script>
+    <script src="http://vjs.zencdn.net/4.1/video.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
